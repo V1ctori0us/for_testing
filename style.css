@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:wght@300;500;900&display=swap');
+
+@import url("https://fonts.cdnfonts.com/css/geometria");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+}
+
+:root {
+    --main-blue: #003D64;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 84px;
+    align-items: center;
+
+}
+
+.header {
+    position: sticky;
+    top: 0; 
+    background-color: #fff;
+    width: 100%;
+}
+
+.header_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+
+.header_right {
+    display: flex;
+    gap: 16px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.navigation_list {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.navigation_item-active {
+    color: var(--main-blue);
+}
+
+.navigation_item {
+    color: #777E90;
+}
+
+.header_navigation {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.header_right_item {
+    border-radius: 100%;
+    border: 1px solid;
+    padding: 8px;
+    color: #777E90;
+    border-color: #E6E8EC;
+}
+
+.lang {
+    cursor: pointer;
+}
+
+.header_right_items {
+    border-radius: 1000px;
+    border: 1px solid;
+    padding: 8px;
+    color: #777E90;
+    border-color: #E6E8EC;
+}
+
+.header_right_items > a {
+    text-decoration: none;
+    color: #777E90;
+}
+
+main {
+    background-color:#EFF2F6;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_text {
+    width: 535px;
+}
+
+.main_img {
+    width: 496;
+    height: 504;
+}
+
+.percentage {
+    color: var(--main-blue);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 160px;
+    border-radius: 10000px;
+    background-color: #FCFCFD;
+    padding: 8px;
+    width: 144px;
+}
+
+.main_h1 {
+    color: var(--Main-Blue, var(--Main-Blue, #003D64));
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: Geometria;
+    margin-top: 8px;
+}
+
+.main_p {
+    color: var(--Neutral-4---Dark-Gray, #777E90);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 35px;
+}
+
+.main_btn {
+    padding: 16px 18px;
+    border-radius: 8px;
+    background: var(--Main-Red, #EA0000);
+    border: none;
+    color: var(--Neutrals-8, #FCFCFD);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 160px;
+}
+
+.advantages_h1 {
+    color: var(--main-blue);
+    font-family: Geometria;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 120px;
+    margin-bottom: 32px;
+}
+
+.advantages_block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.block {
+    width: 363px;
+    height: 193px;
+    border: 2px solid;
+    padding: 26px;
+    border-radius: 12px;
+    border-color: #EFF2F6;
+}
+
+.advantages_h3 {
+    color: var(--main-blue);
+    font-family: Geometria;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.advantages_p {
+    color: #0A1E3299;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.apply_online {
+    background-color: #EFF2F6;
+}
+
+.apply_h1 {
+    color: var(--main-blue);
+    font-family: Geometria;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 120px;
+    padding-bottom: 32px;
+}
+
+span {
+    color: #EA0000;
+}
