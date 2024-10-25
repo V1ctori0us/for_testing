@@ -75,10 +75,154 @@
     </section>
     <section class="apply_online">
         <div class="container">
-            <h1 class="apply_h1">Выберите удобный способ оформления <span class="red">микрозайма:</span> заполните форму или оформите онлайн в JOYDA</h1>
-            
+            <h1 class="apply_h1">Выберите удобный способ оформления <span class="red">микрозайма:</span> заполните форму
+                или оформите онлайн в JOYDA</h1>
+            <div class="microloan">
+                <div class="microloan_bank">
+                    <div class="microloan_block">
+                        <h2 class="microloan_text">Оформить заявку на <br> микрозайм в офисе банка</h2>
+                        <img class="bank_img" src="logo/bank.png" alt="bank">
+                    </div>
+                    <h3 class="microloan_h3">Одобрение микрозайма за 3 минуты</h3>
+                    <form id="myStepForm" method="POST" novalidate="novalidate">
+                        <div class="form-group">
+                            <label>Имя</label>
+                            <input class="inputclass" name="fname" id="fname" type="text" placeholder="Введите имя"
+                                required="">
+                        </div>
+                        <div class="form-group">
+                            <label>Фамилия</label>
+                            <input type="text" class="inputclass" name="surname" id="surname"
+                                placeholder="Введите фамилию" required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Желаемая сумма</label>
+                            <input type="number" class="inputclass" name="loanamount" id="loanamount"
+                                placeholder="100 000 000 сумов" required="" minlength="6" maxlength="9">
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Номер телефона</label>
+                            <input type="tel" class="inputclass" name="phone" id="phone"
+                                placeholder="+998 (__) ___-__-__" data-gtm-form-interact-field-id="0">
+                        </div>
+                        <div class="form-group">
+                            <label>Регион:</label>
+                            <select class="inputclass" name="region" id="region" required="">
+                                <option value="" selected="">Выберите регион</option>
+                                <option value="Tashkent">Ташкент</option>
+                                <option value="Samarkand">Самарканд</option>
+                                <option value="Andijan">Андижан</option>
+                                <option value="Bukhara">Бухара</option>
+                                <option value="Fergana">Фергана</option>
+                                <option value="Jizzakh">Джиззак</option>
+                                <option value="Kashkadarya">Кашкадаря</option>
+                                <option value="Namangan">Наманган</option>
+                                <option value="Navoiy">Навои</option>
+                                <option value="Karakalpakstan">Каракалпакстан</option>
+                                <option value="Surkhandarya">Сурхандаря</option>
+                                <option value="Sirdarya">Сырдаря</option>
+                                <option value="Khorezm">Хорезм</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="colorBlue" id="sendbutton">
+                            Отправить заявку
+                        </button>
+                    </form>
+                </div>
+                <div class="microloan_joyda">
+                    <div class="microloan_joyda-top">
+                        <div class="microloan_block">
+                            <h2 class="microloan_joyda_text">Взять микрозайм в мобильном <br> приложении JOYDA</h2>
+                            <img class="bank_img" src="logo/joyda.png" alt="bank">
+                        </div>
+                        <h3 class="joyda_h3">Получение микрозайма за 5 минут</h3>
+                    </div>
+                    
+                    <div class="img_btn">
+                        <img src="img/joyda_phone.png" alt="phone">
+                        <button class="joyda_btn">Перейти в мобильное приложение</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    <section class="how_to">
+        <div class="container">
+            <h1 class="how_to-get">Как оформить кредит?</h1>
+            <div class="microloan">
+                <div class="through_bank">
+                    <div class="how-to_bank">
+                        <div class="microloan_block">
+                            <h2 class="microloan_text">Этапы получения микрозайма <br> через отделение банка</h2>
+                            <img class="bank_img" src="logo/bank.png" alt="bank">
+                        </div>
+                        <h3 class="how-to_h3">Одобрение микрозайма за 3 минуты</h3>
+                    </div>
+                    <div class="credit_steps">
+                        <div class="steps">
+                            <div class="step">1</div>
+                            <p class="steps_text">Оформите заявку на сайте, через форму выше, либо получите консультацию</p>
+                        </div>
+                        <div class="steps">
+                            <div class="step">2</div>
+                            <p class="steps_text">Получите предварительное решение банка о выдаче кредита</p>
+                        </div>
+                        <div class="steps">
+                            <div class="step">3</div>
+                            <p class="steps_text">Предоставьте необходимые документы в банк, подпишите договор, и получите кредит!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="through_bank_blue">
+                    <div class="how-to_bank">
+                        <div class="microloan_block">
+                            <h2 class="microloan_text_blue">Этапы получения микрозайма в мобильном приложении JOYDA</h2>
+                            <img class="bank_img" src="logo/joyda.png" alt="bank">
+                        </div>
+                        <h3 class="how-to_h3_blue">Одобрение микрозайма за 3 минуты</h3>
+                    </div>
+                    <div class="credit_steps">
+                        <div class="steps">
+                            <div class="step">1</div>
+                            <p class="steps_text">Скачайте мобильное приложение JOYDA в App Store или Google Play</p>
+                        </div>
+                        <div class="steps">
+                            <div class="step">2</div>
+                            <p class="steps_text">После регистрации, введите свой ПИНФЛ и пройдите верефикацию</p>
+                        </div>
+                        <div class="steps">
+                            <div class="step">3</div>
+                            <p class="steps_text"> Добавьте свою зарплатную карту, пройдите скоринг и дождитесь решения банка</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <div class="container">
+            
+        <div class="callBackForm_wrapper">
+            <div class="callBackForm_title">Остались вопросы?</div>
+            <div class="callBackForm_subtitle">Оставьте заявку и наши специалисты решат возникшие вопросы</div>
+
+            <form action="" class="callBackForm">
+                <div class="form_content">
+                    <div class="form_elem">
+                        <label for="callBackForm_number">Ваш номер телефона для связи</label>
+                        <input type="text" name="number" id="callBackForm_number" placeholder="+998" required>
+                    </div>
+                    <div class="form_elem">
+                        <label for="callBackForm_name">Как к вам обращаться?</label>
+                        <input type="text" name="number" id="callBackForm_name" placeholder="Фамилия, имя и отчество">
+                    </div>
+                    <div class="form_elem callBackForm_text">
+                        <p>Оставляя заявку, вы соглашаетесь на обработку персональных данных и с условиями бронирования счёта</p>
+                    </div>
+                    <button class="premium_btn order_btn">Отправить заявку</button>
+                </div>
+            </form>
+        </div>  
+        </div>
 </body>
 
 </html>

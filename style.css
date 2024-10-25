@@ -2,6 +2,8 @@
 
 @import url("https://fonts.cdnfonts.com/css/geometria");
 
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Manrope:wght@200..800&family=Roboto:wght@300;500;900&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -24,6 +26,10 @@ header {
     height: 84px;
     align-items: center;
 
+}
+
+section {
+    padding: 120px 0;
 }
 
 .header {
@@ -57,10 +63,12 @@ header {
 
 .navigation_item-active {
     color: var(--main-blue);
+    cursor: pointer;
 }
 
 .navigation_item {
     color: #777E90;
+    cursor: pointer;
 }
 
 .header_navigation {
@@ -158,6 +166,7 @@ main {
     font-weight: 700;
     line-height: normal;
     margin-bottom: 160px;
+    cursor: pointer;
 }
 
 .advantages_h1 {
@@ -167,14 +176,12 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 120px;
     margin-bottom: 32px;
 }
 
 .advantages_block {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 120px;
 }
 
 .block {
@@ -217,10 +224,330 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-top: 120px;
-    padding-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 span {
     color: #EA0000;
 }
+
+.microloan_bank {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 33px;
+}
+
+.microloan_text {
+    font-family: Geometria;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--main-blue);
+}
+
+.microloan_h3 {
+    color: var(--Main-Blue, var(--Main-Blue, #003D64));
+    font-family: Geometria;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 1000px;
+    background-color: #F4F5F6;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.microloan_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bank_img {
+    width: 42.667px;
+    height: 42.667px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-group label {
+    color: rgba(10, 30, 50, 0.60);
+    font-family: "Manrope", serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+form input,
+form select {
+    width: 100%;
+    display: flex;
+    padding: 12px 16px 12px 18px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 1000px;
+    border: 1px solid #B1B5C3;
+    margin-top: 8px;
+}
+
+form input:disabled {
+    background-color: #f0f0f0;
+}
+
+form button {
+    background-color: var(--main-blue);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10000px;
+}
+
+form button:hover {
+    background-color: var(--main-blue);
+}
+
+.microloan_text {
+    color: var(--main-blue);
+    font-family: Geometria;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.microloan {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: max-content;
+    gap: 16px;
+}
+
+.microloan_joyda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0064FF;
+    border-radius: 12px;
+    padding: 33px;
+}
+
+.microloan_joyda_text {
+    color: #FFF;
+    font-family: Geometria;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.joyda_h3 {
+    color: #0064FF;
+    font-family: Geometria;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 1000px;
+    background-color: #F4F5F6;
+    margin-top: 16px;
+}
+
+.joyda_btn {
+    color: #0064FF;
+    text-align: center;
+    font-family: Geometria;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    width: 488px;
+    height: 52px;
+    padding: 16px 24px 18px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10000px;
+    background: #FFF;
+    box-shadow: 0px 0px 16.3px 0px rgba(0, 0, 0, 0.35);
+    border: none;
+}
+
+.img_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.how_to-get {
+    color: var(--main-blue);
+    font-family: Geometria;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.how-to_h3 {
+    color: var(--Main-Blue, var(--Main-Blue, #003D64));
+    font-family: Geometria;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 1000px;
+    background-color: #Fff;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.steps {
+    background-color: #fff;
+    display: flex;
+    width: 489px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+.credit_steps {
+    display: grid;
+    gap: 8px;
+}
+
+.steps_text {
+    color: #23262F;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.through_bank {
+    background-color: #EFF2F6;
+    border-radius: 12px;
+    padding: 33px;
+}
+
+.through_bank_blue {
+    background-color: #0064FF;
+    border-radius: 12px;
+    padding: 33px;
+}
+
+.microloan_text_blue {
+    color: #fff;
+    font-family: Geometria;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.how-to_h3_blue {
+    color: #0064FF;
+    font-family: Geometria;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 1000px;
+    background-color: #Fff;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.step {
+    border: 2px solid #00A062;
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00A062;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+.callBackForm_wrapper {
+    background-color: #EFF2F6;
+    padding: 64px 96px;
+    border-radius: 12px;
+  }
+  .callBackForm_title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--main-blue);
+    line-height: 127%;
+    font-family: "Geometria", sans-serif;
+  }
+  .callBackForm_subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--main-blue);
+    margin-top: 6px;
+    line-height: 125%;
+    font-family: "Geometria", sans-serif;
+  }
+  .callBackForm {
+    margin-top: 24px;
+  }
+  .callBackForm_wrapper input {
+    border: 1px solid #E6E8EC33;
+    color: #EFF2F6;
+  }
+  .callBackForm_wrapper label {
+    color: var(--main-blue);
+  }
+  .callBackForm .form_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    row-gap: 24px;
+    column-gap: 32px;
+  }
+  .callBackForm_text {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(10, 30, 50, 0.60);
+  }
