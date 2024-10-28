@@ -511,6 +511,7 @@ form button:hover {
     background-color: #EFF2F6;
     padding: 64px 96px;
     border-radius: 12px;
+    margin-bottom: 120px;
   }
   .callBackForm_title {
     text-align: center;
@@ -534,7 +535,8 @@ form button:hover {
   }
   .callBackForm_wrapper input {
     border: 1px solid #E6E8EC33;
-    color: #EFF2F6;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
   }
   .callBackForm_wrapper label {
     color: var(--main-blue);
