@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Микрозайм</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,8 +18,16 @@
                     </div>
                     <nav class="header_navigation">
                         <ul class="navigation_list">
-                            <li class="navigation_item">В филлиале банка</li>
-                            <li class="navigation_item">Мобильное приложение Joyda</li>
+                            <li class="navigation_item">
+                                <a href="#">
+                                    В филлиале банка
+                                </a>
+                            </li>
+                            <li class="navigation_item">
+                                <a href="#">
+                                    Мобильное приложение Joyda
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -29,8 +37,21 @@
                         <a class="phone_number" href=tel:1180">1180</a>
                     </div>
                     <div class="special_features-item burger_wrapper">
-                        <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
-                        <label class="burger" for="burger-checkbox"></label>
+                        <div class="burger_lines"></div>
+                        <div class="burger_menu_items">
+                            <ul class="burger_list">
+                                <li class="navigation_item">
+                                    <a href="#">
+                                        В филлиале банка
+                                    </a>
+                                </li>
+                                <li class="navigation_item">
+                                    <a href="#">
+                                        Мобильное приложение Joyda
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="header_right_item">
                         <div class="lang">RU</div>
@@ -43,6 +64,7 @@
                     </div>
                 </div>
             </header>
+
         </div>
     </div>
     <main>
@@ -59,7 +81,7 @@
             </div>
         </div>
     </main>
-    <section class="advantages"> 
+    <section class="advantages">
         <div class="container">
             <h1 class="advantages_h1">Преимущества микрозайма в SQB</h1>
             <div class="advantages_block">
@@ -149,12 +171,13 @@
                     <div class="img_btn">
                         <img src="img/joyda_phone.png" alt="phone">
                         <button class="joyda_btn">Перейти в мобильное приложение</button>
+                        <button class="joyda_btn joyda_btn-2">Оформить заявку</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- <section class="how_to">
+    <section class="how_to">
         <div class="container">
             <h1 class="how_to-get">Как оформить кредит?</h1>
             <div class="microloan">
@@ -211,7 +234,6 @@
         </div>
     </section>
     <div class="container">
-
         <div class="callBackForm_wrapper">
             <div class="callBackForm_title">Остались вопросы?</div>
             <div class="callBackForm_subtitle">Оставьте заявку и наши специалисты решат возникшие вопросы</div>
@@ -234,7 +256,161 @@
                 </div>
             </form>
         </div>
-    </div> -->
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer_wrapper">
+                <div class="feedback_block">
+                    <div class="feedback_numbers">
+                        <div class="feedback_number-wrapper">
+                            <a class="feedback_number">71 200-43-43</a>
+                            <div class="feedback_title">Бесплатно по всей Республике</div>
+                        </div>
+                        <div class="feedback_number-wrapper">
+                            <a class="feedback_number">0 800 120 88 88</a>
+                            <div class="feedback_title">Бесплатно по всей Республике</div>
+                        </div>
+                        <div class="feedback_number-wrapper">
+                            <a class="feedback_number">1180</a>
+                            <div class="feedback_title">Единый Call center 24/7</div>
+                        </div>
+                    </div>
+
+                    <div class="feedback_messengers">
+                        <div class="feedback_messengers-title">Для связи онлайн:</div>
+                        <div class="feedback_messengers-wrapper">
+                            <a href="#" class="feedback_messenger">
+                                <img class="lazyload" src="logo/Telegram.png" alt="telegram">
+                            </a>
+                            <a href="#" class="feedback_messenger">
+                                <img class="lazyload" src="logo/Instagram.png" alt="Instagram">
+                            </a>
+                            <a href="#" class="feedback_messenger">
+                                <img class="lazyload" src="logo/Facebook.png" alt="Facebook">
+                            </a>
+                            <a href="#" class="feedback_messenger">
+                                <img class="lazyload" src="logo/YouTube.png" alt="YouTube">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main_links">
+                    <div class="main_links-left">
+                        <div class="bank_address">
+                            <div class="footer_logo">
+                                <img class="lazyload" src="logo/SQBlogo.png" alt="SQB logotipe" width="173px"
+                                    height="61px">
+                            </div>
+                            <div class="address_items footer-500">
+                                <div class="address_item">
+                                    <div class="address_title">Электронная почта:</div>
+                                    <a href="mailto:info@sqb.uz">info@sqb.uz</a>
+                                </div>
+                                <div class="address_item">
+                                    <div class="address_title">Адрес:</div>
+                                    Узбекистан, г.Ташкент, 100000, ул. Шахрисабзская, 3
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="footer_list footer-400">
+                            <div class="footer_list-column">
+                                <a href="" class="footer_list-item">
+                                    <p>О банке</p>
+                                </a>
+                                <a href="#" class="footer_list-item">
+                                    <p>Пресс-центр</p>
+                                </a>
+                                <a href="#" class="footer_list-item">
+                                    <p>Тарифы</p>
+                                </a>
+                                <a href="#" class="footer_list-item">
+                                    <p>Реквизиты</p>
+                                </a>
+                                <a href="#" class="footer_list-item">
+                                    <p>Полезные ссылки</p>
+                                </a>
+                                <a href="#" class="footer_list-item">
+                                    <p>Виртуальная приемная</p>
+                                </a>
+                            </div>
+                            <div class="footer_list-column">
+                                <a href="#" class="footer_list-item">
+                                    <p>Права клиента</p>
+                                </a>
+                                <a href="#" class="footer_list-item">
+                                    <p>Открытые данные</p>
+                                </a>
+                                <a href="#" class="footer_list-item">
+                                    <p>Карта сайта</p>
+                                </a>
+                                <a href="#" class="footer_list-item">
+                                    <p>Вакансии</p>
+                                </a>
+                                <a href="#" class="footer_list-item">
+                                    <p>Раскрытие информации</p>
+                                </a>
+                                <a href="#" class="footer_list-item">
+                                    <p>Антикоррупция</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main_links-third_column footer-500">
+                        <div class="anticorruption_lines">
+                            <div class="helpline_block">
+                                <div class="helpline_block-item">
+                                    <div class="helpline_wrapper">
+                                        <div class="helpline_text">Телефон доверия:</div>
+                                        <div class="helpline">
+                                            <img class="lazyload" src="logo/phone.png" alt="call" width="24px"
+                                                height="24px">
+                                            <a href="tel:78 120 45 01">78 120 45 01</a>
+                                        </div>
+                                    </div>
+                                    <div class="helpline_wrapper">
+                                        <div class="helpline_text">Онлайн поддержка:</div>
+                                        <div class="helpline">
+                                            <img class="lazyload" src="logo/blue_telegram.png" alt="telegram"
+                                                width="24px" height="24px">
+                                            <a href="https://t.me/sqbuzbot">@sqbuzbot</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="helpline_block-second">
+                                    <div class="helpline_text">Горячая линия по борьбе с коррупцией:</div>
+                                    <div class="helpline_block-item">
+                                        <div class="helpline">
+                                            <img class="lazyload" src="logo/phone.png" alt="call" width="24px"
+                                                height="24px">
+                                            <a href="tel:0-800-120-8888">0-800-120-8888</a>
+                                        </div>
+                                        <div class="helpline">
+                                            <img class="lazyload" src="logo/blue_telegram.png" alt="telegram"
+                                                width="24px" height="24px">
+                                            <a href="https://t.me/sqbantikor_bot">@sqbantikor_bot</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="report_corruption-btn">Сообщить о коррупции</a>
+                        </div>
+                        <div class="footer_lang footer-500">
+                            <img class="lazyload" src="img/globus.png" alt="globus" width="18px" height="18px">
+                            <div>O'zbekcha</div>
+                            <p>•</p>
+                            <div>Русский</div>
+                            <p>•</p>
+                            <div>English</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
